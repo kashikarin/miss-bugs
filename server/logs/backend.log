@@ -1,0 +1,4 @@
+4.8.2025, 14:47:51 - ERROR - Server could not get bugs from the DB | ReferenceError: bugService is not defined
+4.8.2025, 14:49:59 - ERROR - Server could not get bugs from the DB | ReferenceError: bugService is not defined
+4.8.2025, 14:50:00 - ERROR - Server could not get bugs from the DB | ReferenceError: bugService is not defined
+4.8.2025, 14:50:48 - ERROR - Server could not get bugs from the DB | ReferenceError: bugService is not defined

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Cannot save bug",
+    "severity": 3,
+    "_id": "sb48Vz",
+    "createdAt": "1754305343326"
+  },
+  {
+    "title": "Cannot remove bug",
+    "severity": 3,
+    "_id": "m6eZf",
+    "createdAt": 1754308439859
+  },
+  {
+    "title": "Cannot get a bug",
+    "severity": 4,
+    "_id": "qgPgN",
+    "createdAt": 1754309572520
+  },
+  {
+    "title": "Cannot remove a bug",
+    "severity": 4,
+    "_id": "oPUVN",
+    "createdAt": 1754310623617
+  },
+  {
+    "title": "Cannot get bugs",
+    "severity": 5,
+    "_id": "JS19t",
+    "createdAt": 1754310756634
+  },
+  {
+    "title": "Cannot get a bug",
+    "severity": 3,
+    "_id": "4uuec",
+    "createdAt": 1754311129592
+  },
+  {
+    "title": "Cannot save buggg",
+    "severity": 2,
+    "_id": "xyz123",
+    "createdAt": "1752530000000"
+  }
+]

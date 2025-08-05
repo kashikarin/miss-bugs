@@ -1,0 +1,20 @@
+.bug-filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    background-color: var(--clr2bg);
+}
+
+.bug-filter-category {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+.bug-filter-form button {
+    background-color: var(--clr2bg-light);
+}
