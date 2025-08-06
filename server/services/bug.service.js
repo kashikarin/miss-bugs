@@ -3,9 +3,6 @@
 import { loggerService } from './logger.service.js'
 import { readJsonFile, writeJsonFile, makeId } from './util.service.js'
 
-const STORAGE_KEY = 'bugDB'
-const BASE_URL = '//localhost:3030/api/bug'
-
 const bugs = readJsonFile('data/bug.json')
 
 export const bugService = {

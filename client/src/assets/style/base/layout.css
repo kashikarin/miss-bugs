@@ -7,6 +7,14 @@
     grid-column: 2;
 }
 
+header {
+    grid-column: 1/-1;
+}
+
+footer {
+    grid-column: 1/-1;
+}
+
 .main-layout .full {
     grid-column: 1/-1;
 }

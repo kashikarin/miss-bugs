@@ -51,10 +51,9 @@ app.get('/api/bug/:bugId', async (req, res) => {
         const bug = bugService.getById(bugId)
         res.send(bug)
     } catch(err){
-        loggerService.console.error(`Could not find bug with id ${bugId}`);
+        loggerService.error(`Could not find bug with id ${bugId}`, err);
         res.status(404).send(err)
     }
-    
 })
 
 app.get('/api/bug/:bugId/remove', async (req, res) => {

@@ -16,6 +16,7 @@ export const bugService = {
 
 async function query(filterBy = {}) {
     const {title, createdAt, severity} = filterBy
+    
     try {
         let {data: bugs} = await axios.get(BASE_URL)
         if (title) {
@@ -29,6 +30,7 @@ async function query(filterBy = {}) {
             const createdAtTimestamp = new Date(createdAt).getTime()
             bugs = bugs.filter((bug) => bug.createdAt >= createdAtTimestamp)
         }
+        console.log(bugs)
         return bugs
     } catch(err) {
         console.error('Oops', err)

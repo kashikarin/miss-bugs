@@ -7,9 +7,9 @@ import { useFilterSearchParams } from '../customHooks/useFilterSearchParams.js'
 
 export function BugIndex() {
   const [bugs, setBugs] = useState([])
+  console.log("🚀 ~ bugs:", bugs)
   const [filterBy, setFilterBy] = useState()
   console.log("🚀 ~ filterBy:", filterBy)
-  const setExistSearchParams = useFilterSearchParams(onSetFilterBy)
 
   useEffect(() => {
     loadBugs(filterBy)
@@ -21,9 +21,15 @@ export function BugIndex() {
   }
 
   async function loadBugs(filterBy) {
-    const bugs = await bugService.query(filterBy)     
-    setBugs(bugs)
-    setExistSearchParams(filterBy)
+    try {
+      const bugs = await bugService.query(filterBy)
+      setBugs(bugs)
+      setExistSearchParams(filterBy)
+    } catch(err) {
+      console.error('Could not load bugs', err)
+    }
+         
+    
   }
 
   async function onRemoveBug(bugId) {

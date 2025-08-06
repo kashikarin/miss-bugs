@@ -1,15 +1,10 @@
 [
   {
     "title": "Cannot save bug",
-    "severity": 3,
+    "severity": 1,
+    "description": "undefined",
     "_id": "sb48Vz",
     "createdAt": "1754305343326"
-  },
-  {
-    "title": "Cannot remove bug",
-    "severity": 3,
-    "_id": "m6eZf",
-    "createdAt": 1754308439859
   },
   {
     "title": "Cannot get a bug",
@@ -40,5 +35,12 @@
     "severity": 2,
     "_id": "xyz123",
     "createdAt": "1752530000000"
+  },
+  {
+    "title": "cannot get bug",
+    "severity": 5,
+    "description": "Bug id does not match",
+    "_id": "ZiYna",
+    "createdAt": "1754500212551"
   }
 ]

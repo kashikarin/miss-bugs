@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { bugService } from "../services/bug.service"
+import { bugService } from "../services/bug.service.js"
 import { utilService } from "../services/util.service"
 
 
